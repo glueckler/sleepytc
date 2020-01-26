@@ -37,6 +37,7 @@ module.exports = {
         display: 'swap'
       }
     },
-    `gatsby-plugin-postcss`
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-sass`
   ],
 }

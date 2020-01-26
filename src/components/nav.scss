@@ -1,0 +1,24 @@
+nav {
+  border-bottom: 1px solid black;
+  padding-bottom: .5rem;
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+
+    &:first-of-type {
+      margin-left: 0px;
+    }
+
+    &:hover {
+      opacity: .8;
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav-active {
+  text-decoration: underline;
+}

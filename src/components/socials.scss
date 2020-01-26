@@ -1,0 +1,59 @@
+/* SOCIAL ICONS */
+
+.social-icons {
+  margin-top: .8rem;
+
+  a {
+    display: inline-block;
+  }
+}
+
+.si {
+  margin-right: 4px;
+  height: 30px;
+  width: 30px;
+  background-repeat: repeat;
+  border: 2px solid black;
+  transition: all 100ms ease;
+  background-size: 26px 26px;
+}
+
+.si:last-child {
+  margin-right: 0px;
+}
+
+.si:hover {
+  background-size: 7px 7px;
+}
+
+.si__github {
+  background-image: url('../icons/github-brands.svg');
+}
+
+.si__mailchimp {
+  background-image: url('../icons/mailchimp-brands.svg');
+}
+
+.si__fb {
+  background-image: url('../icons/facebook-f-brands.svg');
+}
+
+.si__insta {
+  background-image: url('../icons/instagram-brands.svg');
+}
+
+.si__tw {
+  background-image: url('../icons/twitter-brands.svg');
+}
+
+.si__spotify {
+  background-image: url('../icons/spotify-brands.svg');
+}
+
+.si__itunes {
+  background-image: url('../icons/itunes-brands.svg');
+}
+
+.si__sc {
+  background-image: url('../icons/sc-brands.svg');
+}

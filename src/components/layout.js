@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import "./layout.scss"
 import Nav from "./nav.js"
 import sleepy_the_creator from "./sleepy_the_creator.svg"
+import Footer from "./footer.js"
 
 const Layout = ({ children }) => {
   return (
@@ -15,9 +16,7 @@ const Layout = ({ children }) => {
       </object>
       <Nav />
       <main>{children}</main>
-      <footer>
-        This is the footer
-      </footer>
+      <Footer />
     </div>
   )
 }

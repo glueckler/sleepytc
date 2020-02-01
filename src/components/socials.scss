@@ -10,12 +10,22 @@
 
 .si {
   margin-right: 4px;
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
   background-repeat: repeat;
-  border: 2px solid black;
   transition: all 100ms ease;
-  background-size: 26px 26px;
+  background-size: 18px 18px;
+
+  @mixin medium {
+    margin-right: 4px;
+    height: 30px;
+    width: 30px;
+    background-repeat: repeat;
+    border: 2px solid black;
+    transition: all 100ms ease;
+    background-size: 26px 26px;
+  }
 }
 
 .si:last-child {

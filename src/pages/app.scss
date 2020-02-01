@@ -1,0 +1,54 @@
+$breakpoint-xs: 1px;
+$breakpoint-sm: 600px;
+$breakpoint-md: 960px;
+$breakpoint-lg: 1280px;
+$breakpoint-xl: 1920px;
+
+
+
+@mixin large {
+  @media (min-width: #{$breakpoint-lg}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: #{$breakpoint-md}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (min-width: #{$breakpoint-sm}) {
+    @content;
+  }
+}
+
+// using these mixins
+.menu-item {
+  @include small {
+    min-width: 209px;
+    font-size: 13px;
+  }
+}
+
+// ****************************************
+
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
+@media only screen and (max-width: 320px) {
+  body { 
+     font-size: .7em; 
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+

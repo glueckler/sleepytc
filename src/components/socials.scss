@@ -1,3 +1,5 @@
+@import "./mixins";
+
 /* SOCIAL ICONS */
 
 .social-icons {
@@ -17,7 +19,7 @@
   transition: all 100ms ease;
   background-size: 18px 18px;
 
-  @mixin medium {
+  @include medium {
     margin-right: 4px;
     height: 30px;
     width: 30px;

@@ -1,3 +1,5 @@
+@import "./mixins";
+
 nav {
   border-bottom: 1px solid black;
   padding-bottom: .5rem;
@@ -17,7 +19,7 @@ nav {
       text-decoration: underline;
     }
 
-    @mixin large {
+    @include medium {
       font-size: 1.8rem;
     }
   }

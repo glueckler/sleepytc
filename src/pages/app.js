@@ -1,7 +1,6 @@
 import React from "react"
 import { Router } from "@reach/router"
 import IndexPage from "./index.js"
-import EPKPage from "./epk.js"
 import { Helmet } from "react-helmet"
 
 import "../styles/tailwind-base.css" // i feel like this is breaking my style file patterns
@@ -16,7 +15,6 @@ const App = () => {
         <link rel="canonical" href="https://sleepythecreator.com" />
       </Helmet>
       <Router>
-        <EPKPage path="/epk" />
         <IndexPage path="/" />
       </Router>
     </>

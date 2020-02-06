@@ -1,3 +1,15 @@
 .hp-blog-img {
   max-width: 500px;
 }
+
+.index-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  .article-preview {
+    flex: 1 0 300px;
+    max-width: 447px;
+    &:nth-child(odd) {
+      margin-right: 30px;
+    }
+  }
+}

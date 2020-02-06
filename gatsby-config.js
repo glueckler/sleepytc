@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: `sleepy the creator | music`,
@@ -38,6 +40,13 @@ module.exports = {
       }
     },
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        src: path.join(__dirname, 'src'),
+        pages: path.join(__dirname, 'src/pages')
+      }
+    }
   ],
 }

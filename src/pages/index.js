@@ -19,31 +19,13 @@ const IndexPage = () => (
         imageUrl={fullmoonimg}
         headerText={`January 2020 Marks the beginning of the "Full Moon Project"`}
         linkPath="/article/fullmoon"
-        description={`In 2020 I'm releasing music on a lunar cycle, so every full moon..  The next release is on February 8th 2020`}
+        description={`In 2020 I'm releasing music on a lunar cycle..  The next release is on February 8th 2020.`}
       />
       <ArticlePreview
         imageUrl={unfinishedMixImg}
-        headerText={`How do I start this thing?  Well I have loads of unfinished music.. sorry..`}
+        headerText={`Let's start with 30mins of unfinished music.  lil' striptease`}
         linkPath="/article/unfinishedmuzic"
-        description={`I put this together partly as a break to writting such chill music.`}
-      />
-            <ArticlePreview
-        imageUrl={unfinishedMixImg}
-        headerText={`How do I start this thing?  Well I have loads of unfinished music.. sorry..`}
-        linkPath="/article/unfinishedmuzic"
-        description={`I put this together partly as a break to writting such chill music.`}
-      />
-            <ArticlePreview
-        imageUrl={unfinishedMixImg}
-        headerText={`How do I start this thing?  Well I have loads of unfinished music.. sorry..`}
-        linkPath="/article/unfinishedmuzic"
-        description={`I put this together partly as a break to writting such chill music.`}
-      />
-            <ArticlePreview
-        imageUrl={unfinishedMixImg}
-        headerText={`How do I start this thing?  Well I have loads of unfinished music.. sorry..`}
-        linkPath="/article/unfinishedmuzic"
-        description={`I put this together partly as a break to writting such chill music.`}
+        description={`A mix of completely original music I wrote mostly in the fall of 2019.`}
       />
     </div>
   </Layout>

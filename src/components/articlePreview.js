@@ -2,17 +2,24 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-const ArticlePreview = ({ linkPath = '/', imageUrl = null, headerText = 'this is a header', description = null }) => (
-  <div class="article-preview">
-    <Link to={linkPath}><h2>{ headerText }</h2></Link>
-    { imageUrl && (
-      <div class="hp-blog-img">
-      <img src={imageUrl} alt="Article Image" />
+import './articlePreview.scss'
+
+const ArticlePreview = ({
+  linkPath = '/',
+  imageUrl = null,
+  headerText = 'this is a header',
+  description = null
+}) => (
+    <div class="article-preview">
+      <h2><Link class="article-preview-header" to={linkPath}>{headerText}</Link></h2>
+      {imageUrl && (
+        <div class="hp-blog-img">
+          <Link to={linkPath}><img src={imageUrl} alt="Article Image" /></Link>
+        </div>
+      )}
+      {description && (<p>{description}</p>)}
     </div>
-    ) }
-    { description && (<p>{ description }</p>)}
-  </div>
-)
+  )
 
 ArticlePreview.propTypes = {
   headerText: PropTypes.string,

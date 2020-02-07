@@ -1,0 +1,15 @@
+.article-preview {
+  border: 1px solid transparent;
+  transition: border-color .5s;
+  transition: opacity .5s;
+
+  &:hover {
+    border-bottom: 1px solid black;
+    opacity: .9;
+  }
+}
+
+.article-preview-header {
+  text-decoration: none;
+  color: black;
+}

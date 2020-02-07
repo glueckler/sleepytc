@@ -12,12 +12,12 @@
 
 .si {
   margin-right: 4px;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border: 1px solid black;
   background-repeat: repeat;
   transition: all 100ms ease;
-  background-size: 18px 18px;
+  background-size: 23px 23px;
 
   @include medium {
     margin-right: 4px;

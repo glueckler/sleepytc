@@ -2,6 +2,13 @@ body {
   font-family: 'Prompt', sans-serif;
 }
 
+hr {
+  margin: 1rem 0;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
 @media only screen and (max-width: 320px) {
   body { 
      font-size: .7em; 
